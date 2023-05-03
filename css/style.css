@@ -352,7 +352,7 @@ body {
     
 }
 .our-team-div{
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 .our-team-div-svg{
     padding: 32px 0;
@@ -377,7 +377,7 @@ body {
 }
 .our-team-div-a:hover,
 .our-team-div-a:focus{
-    background-color: #404bbf;
+    background-color: #404bbf;                                                                                                                                                                                                                                                                                                                                                      
 }
 .our-team-svg{
     display: inline-block;

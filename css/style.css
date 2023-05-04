@@ -16,6 +16,7 @@
     --color-partlogo-buttons: #4d5ae5;
     --color-resst: #f4f4fd;
     --portfolio-button-border:#e7e9fc;
+    --subtle-text:#8E8F99;
 }
 
 /**
@@ -403,10 +404,39 @@ body {
     color: var(--body-text);
     text-align: center;
 }
-
-.list {
-    list-style: none;
+.section-customers{
+    padding:120px 0;
 }
+.customers-h{
+    font-size: 36px;
+    line-height: 1.11;
+    color:var(--color-title-h2-h3-darkbg);
+    margin-bottom: 72px;
+}
+.customers-ul{
+    display: flex;
+    gap:24px;
+}
+.customers-li{
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+}
+.customers-a{
+    width:100%;
+    height:100%;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:var(--subtle-text);
+}
+.customers-a:hover,
+.customers-a:focus{
+    color:#404bbf;
+    border-color:#404bbf;
+}
+
 .portfolio-nav-list {
     display: flex;
     justify-content: center;
@@ -430,7 +460,9 @@ body {
     padding: 12px 24px;
     
 }
-
+.customer-svg{
+    fill: currentColor;
+}
 .nav-button:hover,
 .nav-button:focus {
     border: 1px solid transparent;

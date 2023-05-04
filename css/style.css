@@ -383,6 +383,11 @@ body {
     stroke-width: 0;
     fill: #f4f4fd;
 }
+.our-team-div-a:hover
+.our-team-div-a:focus{
+    background-color: #31D0AA;
+    color: #31D0AA;
+}
 .our-team-ul-h {
     font-size: 20px;
     font-weight: 500;
@@ -404,16 +409,19 @@ body {
 }
 .section-customers{
     padding:120px 0;
+    
 }
 .customers-h{
     font-size: 36px;
     line-height: 1.1;
     color:var(--color-title-h2-h3-darkbg);
     margin-bottom: 72px;
+    text-align: center;
 }
 .customers-ul{
     display: flex;
     gap:24px;
+    
 }
 .customers-li{
     width: calc((100% - 120px) / 6);
@@ -458,9 +466,7 @@ body {
     padding: 12px 24px;
     
 }
-.customer-svg{
-    fill: currentColor;
-}
+
 .nav-button:hover,
 .nav-button:focus {
     border: 1px solid transparent;

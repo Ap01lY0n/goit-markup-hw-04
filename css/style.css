@@ -605,6 +605,7 @@ body {
 .social-media-ul{
     display: flex;
     gap: 16px;
+    margin-top: 0;
 }
 .social-media-li{
     width: 40px;

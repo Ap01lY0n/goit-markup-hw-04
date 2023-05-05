@@ -527,6 +527,11 @@ body {
     border: 1px solid #e7e9fc;
     border-top: none;
 }
+/**
+  |============================
+  | Footer
+  |============================
+*/
 .section-footer {
     background: #2E2F42;
 }
@@ -535,7 +540,11 @@ body {
     background-color: var(--color-title-h2-h3-darkbg);
     padding: 100px 0;
 }
-
+.footer-div{
+    display: flex;
+    align-items: baseline;
+    margin-right: 120px;
+}
 
 
 .footer-logo {
@@ -555,13 +564,47 @@ body {
 }
 .footer-logo-studio {
     font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        display: inline;
-        flex-direction: row;
-        align-items: center;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: var(--color-resst);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    display: inline;
+    flex-direction: row;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-resst);
+}
+.social-media-p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--background-color);
+    margin-bottom:16px ;
+}
+.social-media-ul{
+    display: flex;
+    gap: 16px;
+}
+.social-media-li{
+    width: 40px;
+    height: 40px;
+}
+.social-media-a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-partlogo-buttons);
+    border-radius: 50%;
+}
+.social-media-a:hover,
+.social-media-a:focus{
+    background-color: #31d0aa;
+}
+.social-media-svg{
+    fill: var(--color-resst);
 }

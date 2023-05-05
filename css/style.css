@@ -228,7 +228,7 @@ body {
 
 .hero-background {
 
-
+    margin: 0 auto;
     background: #2E2F42;
 }
 
@@ -430,12 +430,19 @@ body {
     justify-content: center;
     color:var(--subtle-text);
 }
+.customer-svg{
+    fill: currentColor;
+}
 .customers-a:hover,
 .customers-a:focus{
     color:#404bbf;
     border-color:#404bbf;
 }
-
+/**
+  |============================
+  | Portfolio
+  |============================
+*/
 .portfolio-nav-list {
     display: flex;
     justify-content: center;

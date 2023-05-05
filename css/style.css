@@ -408,10 +408,10 @@ body {
     font-size: 36px;
     line-height: 1.1;
     color:var(--color-title-h2-h3-darkbg);
-    margin-bottom: 72px;
     text-align: center;
 }
 .customers-ul{
+    margin-top:72px;
     display: flex;
     gap:24px;
     
@@ -598,11 +598,12 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--background-color);
-    margin-bottom: 16px;
+    
 }
 .social-media-ul{
     display: flex;
     gap: 16px;
+    margin-top: 16px;
 }
 .social-media-li{
     width: 40px;

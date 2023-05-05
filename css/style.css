@@ -470,6 +470,9 @@ body {
 .nav-button:focus {
     border: 1px solid transparent;
     background-color: #404BBF;  
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+            0px 2px 1px rgba(0, 0, 0, 0.08),
+            0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .nav-button-text:hover,
 .nav-button-text:focus {
@@ -512,6 +515,15 @@ body {
 }
 .portfolio-item{
     flex-basis: calc((100% - 3 * 24px) / 4);
+}
+.portfolio-a{
+    display: block;
+}
+.portfolio-a:hover,
+.portfolio-a:focus{
+    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .portfolio-title{
     margin-bottom: 8px;
@@ -582,7 +594,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--background-color);
-    margin-bottom:16px ;
+    margin-bottom: 16px;
 }
 .social-media-ul{
     display: flex;

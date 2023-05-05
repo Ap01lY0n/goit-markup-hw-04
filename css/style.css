@@ -543,10 +543,10 @@ body {
 .footer-div{
     display: flex;
     align-items: baseline;
+}
+.footer-div-container{
     margin-right: 120px;
 }
-
-
 .footer-logo {
     display: inline-block;
     margin-bottom: 16px;

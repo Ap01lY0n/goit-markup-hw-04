@@ -439,7 +439,7 @@ img{
 }
 .customer-svg{
     width: 100%;
-    fill: #8e8f99;
+    fill: currentColor;
 }
 .customer-svg:hover{
     fill: #404BBF;
